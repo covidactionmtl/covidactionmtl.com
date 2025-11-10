@@ -1,0 +1,171 @@
+html {
+  /* adapted from "transitional" system stack here: https://github.com/system-fonts/modern-font-stacks#transitional */
+  font-family: "Prospectus Pro M", Baskerville, Charter, "Bitstream Charter",
+    "Sitka Text", Cambria, serif;
+
+  scroll-behavior: smooth;
+}
+
+.header-grad {
+  background-image: linear-gradient(to bottom, #fec3fe, #c3eaff);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.font-titles {
+  font-family: "Metropolis", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 1280px;
+  align-items: center;
+}
+
+.title-with-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.header-row {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.socials-link {
+  display: none;
+  flex-shrink: 0;
+}
+@media (min-width: 500px) {
+  .socials-link {
+    display: block;
+  }
+}
+
+.hide-sm {
+  display: none;
+}
+@media (min-width: 768px) {
+  .hide-sm {
+    display: block;
+  }
+}
+
+.hero-section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  text-wrap: balance;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.section {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.about-section {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
+}
+
+.section-inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
+}
+@media (min-width: 1024px) {
+  .section-inner {
+    max-width: 768px;
+  }
+}
+
+.section-header {
+  text-wrap: balance;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+.with-link-underline a {
+  text-decoration-line: underline;
+}
+
+.section-body {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.map {
+  /* height: 80vh; */
+  width: 100%;
+
+  /* temp */
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(157, 157, 157);
+}
+
+.section-change {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity, 1));
+}
+
+.section-contact {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 244 / var(--tw-bg-opacity, 1));
+}
+
+.section-contact-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-item-link {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-decoration-line: underline;
+}

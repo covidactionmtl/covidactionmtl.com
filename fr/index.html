@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>COVID Action Montréal</title>
+    <meta name="title" content="COVID Action Montréal" />
+    <meta
+      name="description"
+      content="Located in Tiohtià:ke / Montréal, Covid Action Montréal provides free,
+high-quality masks and COVID tests for all.
+"
+    />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/fonts.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  </head>
+  <body>
+    <div class="header-grad">
+      <header class="header font-titles">
+        <a class="title-with-logo" href="/en">
+          <img src="/icon.svg" alt="COVID Action Now logo" class="logo" />
+          <div>COVID ACTION <span class="bold">MONTRÉAL</span></div>
+        </a>
+        <div class="header-row">
+          <a
+            href="https://www.instagram.com/covid_action_now/"
+            target="_blank"
+            rel="noreferrer"
+            class="socials-link"
+          >
+            <img src="/assets/fa-insta.svg" title="Instagram" class="icon" />
+          </a>
+          <a href="#about" class="hide-sm">About</a>
+          <a href="#map" class="hide-sm">Map</a>
+          <a href="#contact" class="hide-sm">Contact</a>
+          <a href="/fr">Français</a>
+        </div>
+      </header>
+      <div class="hero-section">
+        Towards a world where <strong>everyone</strong> can breathe easy.
+      </div>
+    </div>
+    <div id="about" class="about-section">
+      <div class="section section-inner">
+        <h1 class="section-header bold font-titles">
+          Get free masks and tests.
+        </h1>
+        <div class="section-body with-link-underline">
+          COVID Action Montréal provides
+          <strong>free masks and rapid tests for all</strong> in Tiohtià:ke
+          (Montréal). Check the map below for pickup locations. Nothing near
+          you? <a href="#contact">Contact us</a>. Interested in being a pickup
+          location? <a href="#contact"> Get in touch</a>.
+        </div>
+      </div>
+    </div>
+    <div id="map" class="map">TODO: restore map</div>
+    <div class="section section-change">
+      <div class="section-inner">
+        <h1 class="section-header bold font-titles">
+          Let's change the conversation.
+        </h1>
+        <div class="section-body with-link-underline">
+          COVID Action Montréal is a grassroots organization dedicated to
+          providing material support to all those feeling left behind by the
+          “return to normal.” We want a <strong>new normal</strong> where
+          everyone can participate and live full healthy lives. Lorem ipsum
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="section section-contact">
+      <div class="section-inner">
+        <div class="section-contact-items">
+          <h1 class="section-header bold font-titles">Keep in touch!</h1>
+          <a
+            href="https://www.instagram.com/covid_action_now/"
+            target="_blank"
+            rel="noreferrer"
+            class="contact-item"
+          >
+            <img src="/assets/fa-insta.svg" title="Instagram" class="icon" />
+            <span class="contact-item-link">covid_action_now</span>
+          </a>
+          <a id="email" href="#" class="contact-item">
+            <img src="/assets/email.svg" title="Instagram" class="icon" />
+            <span class="contact-item-link"
+              >covidactionnow [at] proton [dot] me</span
+            >
+          </a>
+          <script>
+            // prevent spam with one weird trick
+            const user = "covidactionnow";
+            const domain = "proton.me";
+            setTimeout(() => {
+              const el = document.querySelector("#email");
+              el.setAttribute("href", `mailto:${user}@${domain}`);
+              el.querySelector("span").innerText = `${user}@${domain}`;
+            }, 500);
+          </script>
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

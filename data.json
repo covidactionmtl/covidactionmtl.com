@@ -1,0 +1,85 @@
+{
+  "members": {
+    "Europe": [
+      {
+        "name": "STJV",
+        "location": "France",
+        "link": "https://www.stjv.fr/"
+      },
+      {
+        "name": "Game Devs Roundtable",
+        "location": "Germany",
+        "link": "https://tk-it-nrw.verdi.de/themen-und-kampagnen/game-devs"
+      },
+      {
+        "name": "GWU Italy",
+        "link": "https://twitter.com/GWU_Italy"
+      },
+      {
+        "name": "IWGB Game Workers",
+        "location": "United Kingdom",
+        "link": "https://www.gameworkers.co.uk/"
+      },
+      {
+        "name": "ICT Union",
+        "location": "Czech Republic",
+        "link": "https://ictunion.cz/"
+      },
+      {
+        "name": "CSVI",
+        "location": "Spain",
+        "link": "https://x.com/CSVI_CGT"
+      }
+    ],
+    "North America": [
+      {
+        "name": "Fair Play 4 Game Workers",
+        "location": "Alberta, Canada",
+        "link": "https://twitter.com/FP4GW"
+      },
+      {
+        "name": "GWU Toronto",
+        "location": "Ontario, Canada",
+        "link": "https://twitter.com/GWU_Toronto"
+      },
+      {
+        "name": "GWU Montréal",
+        "location": "Québec, Canada",
+        "link": "https://gwumtl.com/"
+      },
+      {
+        "name": "CODE-CWA",
+        "location": "USA & Canada",
+        "link": "https://code-cwa.org/"
+      }
+    ],
+    "Asia-Pacific": [
+      {
+        "name": "Game Workers Australia",
+        "link": "https://www.gameworkers.com.au/"
+      }
+    ]
+  },
+  "strings": {
+    "North America": {
+      "fr": "Amérique du Nord",
+      "it": "Nord America"
+    },
+    "South America": {
+      "fr": "Amérique du Sud",
+      "it": "Sud America"
+    },
+    "Europe": {
+      "fr": "Europe",
+      "it": "Europa"
+    },
+    "Africa": {
+      "fr": "Afrique",
+      "it": "Africa"
+    },
+    "Asia-Pacific": {
+      "fr": "Asie-Pacifique",
+      "it": "Asia-Pacifica"
+    }
+  }
+}

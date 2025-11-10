@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>COVID Action Montréal</title>
+    <meta name="title" content="COVID Action Montréal" />
+    <meta
+      name="description"
+      content="Located in Tiohtià:ke / Montréal, Covid Action Montréal provides free,
+high-quality masks and COVID tests for all.
+"
+    />
+  </head>
+
+  <body>
+    <script>
+      const nonEnglishLangs = ["fr"];
+
+      const userLang = navigator.language.split("-")[0];
+      if (nonEnglishLangs.includes(userLang)) location.href = userLang;
+      else location.href = "en";
+    </script>
+    <div>
+      <div>Click here if you are not redirected:</div>
+      <div><a href="/en/">English</a></div>
+      <div><a href="/fr/">Français</a></div>
+    </div>
+  </body>
+</html>
