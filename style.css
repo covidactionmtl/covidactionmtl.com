@@ -5,9 +5,11 @@ html {
 
   scroll-behavior: smooth;
 }
+body {
+  background-image: linear-gradient(to bottom, #c3eaff, #fec3fe);
+}
 
 .header-grad {
-  background-image: linear-gradient(to bottom, #fec3fe, #c3eaff);
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   padding-top: 0.75rem;
@@ -94,11 +96,6 @@ html {
   padding-right: 0.75rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
-}
-
-.about-section {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
 }
 
 .section-inner {
