@@ -17,6 +17,12 @@ high-quality masks and COVID tests for everyone.
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
     <link rel="icon" href="/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
   </head>
   <body>
     <div class="header-grad">
@@ -74,10 +80,10 @@ high-quality masks and COVID tests for everyone.
           Contact us to organize getting masks for your event and also 
           check out our resources on 
           <a href="#saferEvents">organizing COVID safer events</a>.
+          <div id="map"></div>
         </div>
       </div>
     </div>
-    <div id="map" class="map">TODO: restore map</div> 
     <div id="saferEvents">
       <div class="section section-inner">
         <h1 class="section-header bold font-titles">
@@ -147,7 +153,7 @@ high-quality masks and COVID tests for everyone.
             rel="noreferrer"
             class="contact-item"
           >
-            <img src="/assets/fa-bluesky.svg" title="BlueSky" class="icon" />
+            <img src="/assets/bluesky-brands-solid-full.svg" title="BlueSky" class="icon" />
             <span class="contact-item-link">@action-covid-mtl.bsky.social</span>
           </a>
           
